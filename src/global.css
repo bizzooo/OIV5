@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans';
+    src: url("frontend\src\Fonts\PlusJakartaSans-VariableFont_wght.ttf") format('truetype');
+    font-weight: 100 900; /* for a variable font, specify the range if needed */
+    font-style: normal;
+  }
+
+@font-face {
+font-family: 'Plus Jakarta Sans Bold';
+src: url("frontend\src\Fonts\PlusJakartaSans-Bold.ttf") format('truetype');
+font-weight: 100 900; /* for a variable font, specify the range if needed */
+font-style: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    background-color:lightblue;
+    font-family:'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
+}
+

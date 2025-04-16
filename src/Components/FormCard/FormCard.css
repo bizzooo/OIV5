@@ -1,0 +1,9 @@
+.form{
+    background-color: rgb(255, 255, 255);
+    border: 0.05rem solid;
+    border-color: rgb(226, 226, 226);
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px 5px;
+    position: relative;
+}

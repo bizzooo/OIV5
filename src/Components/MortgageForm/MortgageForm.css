@@ -1,0 +1,72 @@
+.mForm{
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    gap: 2rem;
+}
+.input-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 0.25rem;
+}
+
+.input-text {
+    color: rgb(98, 116, 116);
+    font-weight: 550;
+    width: 16rem;
+    margin-left: 0.25rem; 
+    display: inline-block;
+}
+
+.currency{
+    background-color: red;
+    color: aliceblue;
+    position: absolute;
+    font-size: 1rem;
+    width: 2.43rem;
+    margin-top: 1.34rem;
+    border-radius:5px ;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.inputBody::after{
+    content: "€";
+    color: rgb(139, 167, 167);
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 2.5rem;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px 0 0 5px;
+    background-color: rgba(139,167,167,0.5);
+    border: 0.1rem solid;
+    border-right: none;
+    border-color: rgb(139, 167, 167);
+    box-sizing: border-box;
+}
+.inputBody{
+
+    margin-top: 0.3rem;
+    position: relative;
+    display: block;
+}
+
+.formInput{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Plus Jakarta Sans Bold';
+    font-size: large;
+    padding-left: 3rem;
+    padding-right: 1rem;
+    width: 20rem;
+    height: 2.3rem;
+    border: 0.1rem solid;
+    border-color: rgb(139, 167, 167);
+    border-radius: 5px;
+}
