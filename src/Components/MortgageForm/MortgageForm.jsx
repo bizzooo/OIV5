@@ -1,22 +1,14 @@
 import "./MortgageForm.css"
+import FormInput from "./FormInput/FormInput"
+import SmallFormInputCard from "./SmallFormInputCard/SmallFormInputCard";
 
 function MortgageForm(){
     return(
         <>
             <form className="mForm">
-                <label className="input-container">
-                    {/*
-                    <span className="currency">€</span>
-                    */}
-                    <span className="input-text">Mortgage amount</span>
-                    <div className="inputBody">
-                        <input type="number" placeholder="300000" className="formInput"/>
-                    </div>
-                </label>
-                <label className="input-container">
-                    <span className="input-text">Enter Credit card</span>
-                    <input type="text" className="formInput"/>
-                </label>
+                <FormInput header_text={"Mortgage Amount"} input_type={"number"} size={15}/>
+                <FormInput header_text={"Enter Credit Card"} input_type={"number"} size={15}/>
+                <SmallFormInputCard />
             </form>
         </>
     )

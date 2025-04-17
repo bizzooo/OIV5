@@ -1,9 +1,36 @@
+.form-container{
+    display: flex;
+    height: 80rem;
+    padding: 7rem;
+}
+
 .form{
+    width: 50rem;
+    height: 30rem;
+    margin: 0 auto; 
     background-color: rgb(255, 255, 255);
     border: 0.05rem solid;
     border-color: rgb(226, 226, 226);
-    border-radius: 10px;
+    border-radius: 15%;
     font-size: large;
-    padding: 10px 5px;
     position: relative;
+    display: flex;
+}
+
+.mortgage-card{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    border-radius: 5%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.results-card{
+    background-color: rgb(41, 41, 99);
+    width: 50%;
+    height: 100%;
+    border-radius: 5%;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 20%;
 }

@@ -1,0 +1,51 @@
+.sf-container{
+    padding-right: 0.68rem;
+    margin-left: 0.25rem ;
+}
+
+.sf-inputBody{
+    position: relative;
+    margin-top: 0.3rem;
+
+    /*This makes variables to manipulate in inputBody::after, these are
+    the default values which can and should be overwritten*/
+    --suffix-content: "€";
+    --suffix-width: 2.5rem;
+}
+
+.sf-inputBody::after{
+    content:var(--suffix-content);
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    left:auto;
+    bottom: auto;
+
+    color: rgb(139, 167, 167);
+    font-size: 1.25rem;
+
+    width: var(--suffix-width);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(139,167,167,0.5);
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.sf-formInput{
+    background-color:rgb(255, 255, 255);
+    font-family: 'Plus Jakarta Sans Bold';
+    font-size: large;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    width: 20rem;
+    height: 2.3rem;
+    border: 0.1rem solid;
+    border-color: rgb(139, 167, 167);
+    border-radius: 5px;
+}
