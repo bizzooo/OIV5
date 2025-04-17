@@ -1,0 +1,14 @@
+.CardComponent__Heading{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+}
+
+.CardComponent__Title{
+    font-size:smaller;
+}
+
+.CardComponent__ClearAll{
+    font-size: smaller;
+    text-decoration: underline;
+}
