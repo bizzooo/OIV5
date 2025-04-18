@@ -2,6 +2,7 @@ import "./MortgageForm.css"
 import FormInputCard from "./FormInputCard/FormInputCard"
 import SmallFormInputCard from "./SmallFormInputCard/SmallFormInputCard";
 import RadioButtonCard from "./RadioButtonCard/RadioButtonCard";
+import CalculateButton from "./CalculateButton/CalculateButton";
 
 function MortgageForm(){
     return(
@@ -10,6 +11,7 @@ function MortgageForm(){
                 <FormInputCard />
                 <SmallFormInputCard />  
                 <RadioButtonCard />
+                <CalculateButton />
             </form>
         </>
     )

@@ -2,3 +2,9 @@
   border-color: black solid;
   border: 1px solid;
 }
+
+.RadioCard__TitleText{
+    font-family: 'Plus Jakarta Sans Bold';
+    font-size: large;
+    font-weight: 550;
+}

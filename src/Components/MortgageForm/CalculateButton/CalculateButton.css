@@ -1,0 +1,11 @@
+.Calc-container{
+    border: 1px solid
+}
+
+.Calc__button{
+    -webkit-appearance: none;
+    appearance: none;
+    all: unset; 
+
+
+}

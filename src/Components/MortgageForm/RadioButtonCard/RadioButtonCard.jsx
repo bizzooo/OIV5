@@ -6,10 +6,10 @@ function RadioButtonCard(){
         <>
             <div className="RadioCard">
                 <div className="RadioCard__Title">
-                    <p>Mortgage type</p>
+                    <p className="RadioCard__TitleText">Mortgage type</p>
                 </div>
-                <RadioButton />
-                <RadioButton />
+                <RadioButton name={"mortgageType"} id={"repayment"} text={"Repayment"}/>
+                <RadioButton name={"mortgageType"} id={"interestOnly"} text={"Interest only"}/>
             </div>
         </>
     )
