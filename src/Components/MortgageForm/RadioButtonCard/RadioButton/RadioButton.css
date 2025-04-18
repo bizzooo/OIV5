@@ -1,0 +1,12 @@
+.RadioComponent{
+  background-color:rgb(255, 255, 255);
+  font-family: 'Plus Jakarta Sans Bold';
+  font-size: large;
+  padding-left: .5rem;
+  height: 2.3rem;
+  border: 0.1rem solid;
+  border-color: rgb(139, 167, 167);
+  border-radius: 5px;
+  margin-top: .5rem;
+  display: flex;
+}

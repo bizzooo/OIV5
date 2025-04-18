@@ -1,11 +1,13 @@
 import "./RadioButton.css"
 
-function RadioButton(){
+function RadioButton( {type} ){
     return(
         <>
-            <div className="RadioComponent">
-                <input type="radio"/>
-            </div>
+            <label>
+                <div className="RadioComponent">
+                    <input type="radio" id={type} />
+                </div>
+            </label>
         </>
     )
 }

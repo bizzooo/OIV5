@@ -1,4 +1,5 @@
 import "./RadioButtonCard.css"
+import RadioButton from "./RadioButton/RadioButton"
 
 function RadioButtonCard(){
     return(
@@ -7,7 +8,8 @@ function RadioButtonCard(){
                 <div className="RadioCard__Title">
                     <p>Mortgage type</p>
                 </div>
-                
+                <RadioButton />
+                <RadioButton />
             </div>
         </>
     )
